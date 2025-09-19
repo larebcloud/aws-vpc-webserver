@@ -48,3 +48,26 @@ The setup included one public subnet and one private subnet. A Windows server wa
 - Add a database in the private subnet (RDS).  
 - Use a Load Balancer and Auto Scaling for high availability.  
 - Automate the setup using Terraform or CloudFormation.  
+
+---
+
+
+
+ VPC Setup
+![VPC Dashboard](images/vpc-dashboard.png)  
+![Subnets](images/subnets.png)  
+![Public Subnet](images/public-subnet.png)  
+![Private Subnet](images/private-subnet.png)  
+
+EC2 Instances
+![All Instances](images/instances.png)  
+![Windows Instance](images/instance-windows.png)  
+![Ubuntu Instance](images/instance-ubuntu.png)  
+
+ Connecting to Windows EC2
+![RDP Login](images/ec2-rdp-login.png)  
+![Windows Desktop Login](images/ec2-windows-desktop-login.png)  
+![Windows Desktop](images/ec2-windows-desktop.png)  
+
+ Networking Details
+![EC2 Networking](images/ec2-instance-networking.png)  
